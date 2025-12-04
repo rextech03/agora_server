@@ -1,0 +1,49 @@
+{
+  "name": "talktomeds",
+  "version": "0.0.1",
+  "description": "talktomeds",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rextech03/agora_server.git"
+  },
+  "keywords": [
+    "talk",
+    "to",
+    "meds"
+  ],
+  "author": "mark ogujiuba",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rextech03/agora_server/issues"
+  },
+  "homepage": "https://github.com/rextech03/agora_server#readme",
+  "devDependencies": {
+    "@types/axios": "^0.9.36",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/morgan": "^1.9.10",
+    "@types/node": "^24.10.1",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "agora-access-token": "^2.0.4",
+    "axios": "^1.13.2",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express-rate-limit": "^8.2.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "morgan": "^1.10.1"
+  }
+}
